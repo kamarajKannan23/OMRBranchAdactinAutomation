@@ -31,7 +31,6 @@ public class BookingConfirmPage extends BaseClass {
 	public String getBookingId() {
 		orderId = elementGetAttribute(getTxtOrderNo());
 		System.out.println("id:" + orderId);
-
 		return orderId;
 	}
 

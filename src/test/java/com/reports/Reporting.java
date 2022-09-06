@@ -13,7 +13,7 @@ public class Reporting {
 	public static void generateJVMReport(String jsonFile) {
 		
 		//1. Mention the path of JVM report to store 
-		File file = new File("\\target\\output.jvm");
+		File file = new File(System.getProperty("user.dir")+"\\target");
 		
 		//2. Create obj for configuration 
 		Configuration config = new Configuration(file, jsonFile);

@@ -33,5 +33,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="C:/apache-maven-3.8.6"/>
+	<classpathentry kind="src" path="/AdactinCucumber"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

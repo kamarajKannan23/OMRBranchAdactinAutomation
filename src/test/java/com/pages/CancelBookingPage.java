@@ -25,14 +25,7 @@ public class CancelBookingPage extends BaseClass {
 	@FindBy(id = "search_result_error")
 	private WebElement CancelledMsg;
 
-	// input[@value='Cancel MH8GNG2YI1']
-	////
-	// String xpath="'Cancel'+BookingId+'";
-	//
-	//
-	// @FindBy(xpath="(//input[@value,'"+BookingId+"'])")
-	// private WebElement checkBoxHotel;
-	//
+
 	@FindBy(xpath = "(//input[@type='button'])[1]")
 	private WebElement checkBoxHotel;
 

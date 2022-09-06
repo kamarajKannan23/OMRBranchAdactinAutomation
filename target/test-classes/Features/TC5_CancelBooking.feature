@@ -31,4 +31,4 @@ Feature: Verifying Adactin Cancel Booking Hotel Page
 
     Examples: 
       | username | password | orderId    |
-      | Kamal001 | Pass@123 | 95F79E794K |
+      | Kamal001 | Pass@123 | AOQ40M3X51 |
